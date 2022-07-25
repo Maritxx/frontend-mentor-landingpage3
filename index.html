@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
 
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+
+		<link rel="icon" type="img/png" sizes="32x32" href="img/favicon-32x32.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/7b829ce025.js" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<title>Frontend Mentor | Huddle landing page with curved sections</title>
+	</head>
+
+	<body>
+		<header>
+			<img src="img/logo.svg" alt="Huddle Logo">
+			<div class="button button__border">
+				<a href="#">Try It Free</a>
+			</div>
+		</header>
+		
+		<main>
+			<section class="hero-section">
+				<div class="hero-content">
+					<h1>Build The Community Your Fans Will Love</h1>
+					<p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+					<div class="button button__pink">
+						<a href="#">Get Started For Free</a>
+					</div>
+				</div>
+				<div class="hero-image">
+					<img src="img/screen-mockups.svg" alt="">
+				</div>
+				<div class="hero-statistics__holder">
+					<div class="statistics__box">
+						<img src="img/icon-communities.svg" alt="">
+						<span class="stats__heading">1.4K+</span>
+						<span class="stats__text">Communities Formed</span>
+					</div>
+					<div class="statistics__box">
+						<img src="img/icon-messages.svg" alt="">
+						<span class="stats__heading">2.7m+</span>
+						<span class="stats__text">Messages Sent</span>
+					</div>
+				</div>
+			</section>
+
+			<section class="company-info">
+				<div class="two-column__holder wave-blue">
+					<div class="two-column__box">
+						<h2>Grow Together</h2>
+						<p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+					</div>
+					<div class="two-column__box">
+						<img src="img/illustration-grow-together.svg" alt="">
+					</div>
+				</div>
+				<div class="two-column__holder">
+					<div class="two-column__box">
+						<img src="img/illustration-flowing-conversation.svg" alt="">
+					</div>
+					<div class="two-column__box">
+						<h2>Flowing Conversations</h2>
+						<p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+					</div>
+				</div>
+				<div class="two-column__holder wave-blue">
+					<div class="two-column__box">
+						<h2>Your Users</h2>
+						<p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+					</div>
+					<div class="two-column__box">
+						<img src="img/illustration-your-users.svg" alt="">
+					</div>
+				</div>
+				<div class="sign-up__holder">
+					<h2>Ready To Build Your Community?</h3>
+					<div class="button button__pink">
+						<a href="#">Get Started For Free</a>
+					</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="contact-info__holder">
+				<img src="img/logo.svg" alt="Huddle Logo">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</p>
+				<span class="contact-phone">Phone: +1-543-123-4567</span>
+				<span class="contact-email">example@huddle.com</span>
+				<div class="social-logo__holder">
+					<a href="" aria-label="Link to Facebook Page"><i aria-hidden="true" class="fa-brands fa-facebook-square"></i></a>
+					<a href="" aria-label="Link to Instagram Page"><i aria-hidden="true" class="fa-brands fa-instagram"></i></a>
+					<a href="" aria-label="Link to Twitter Page"><i aria-hidden="true" class="fa-brands fa-twitter-square"></i></a>
+				</div>
+			</div>
+			<div class="newsletter__holder">
+				<form action="#" method="POST">
+					<span>NEWSLETTER</span>
+					<p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address.</p>
+					<div class="form-input">
+						<label for="email"></label>
+      					<input type="email" oninvalid="invalidMessage()">
+      					<button class="button__subscribe">Subscribe</button>
+      					<span class="invalidText hidden">Check your email please</span>
+      				</div>
+      			</form>
+			</div>
+		</footer>
+	</body>
+</html>
