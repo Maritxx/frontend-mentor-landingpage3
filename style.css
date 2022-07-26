@@ -74,16 +74,20 @@ header {
 	color: var(--button-primary);
 	border: 1px solid var(--button-primary);
 	background-color: var(--bg-primary);
-	padding: 10px 30px;
+	padding: 10px;
+	min-width: 120px;
+}
+
+.logo__holder {
+	padding-right: 30px;
 }
 
 .logo__holder img, .logo__holder svg {
 	max-width: 240px;
+	width: 100%;
+	height: auto;
 	display: block;
 }
-
-
-
 
 /*Hero Section*/
 .hero-section {
@@ -347,10 +351,10 @@ i.fa-brands {
 
 	footer {
 		margin-top: 158px;
+		padding: 120px;
 	}
 
 	.footer__holder {
-		max-width: 1200px;
 		display: flex;
 		justify-content: space-between;
 	}
