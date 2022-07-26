@@ -27,8 +27,6 @@ h2 {
 	font-family: var(--heading-font);
 	font-weight: 700;
 	color: var(--text-primary);
-	max-width: 480px;
-	margin: 0 auto;
 }
 
 main p {
@@ -130,6 +128,11 @@ header {
 .two-column__holder {
 	margin-bottom: 200px;
 	padding: 20px 40px;
+}
+
+.two-column__box h2 {
+	max-width: 480px;
+	margin: 0 auto;
 }
 
 .button__pink a {

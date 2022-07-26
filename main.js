@@ -24,8 +24,15 @@ const validate = () => {
   
 
 
-  if (validateEmail(email)) {
-  //If the input matches the the regular expression.
+  if (email == '') {
+  	result.innerHTML = 'this field can not be empty';
+  	//Adds a string. 
+
+  	result.style.display="block";
+  	
+  	//Sets the display of the span to block, making it visbible.
+  } else if (validateEmail(email)) {
+  //If the input matches the regular expression.
   
   result.style.display="none";
   //Sets the display of the span to 'none', making it invisible.
