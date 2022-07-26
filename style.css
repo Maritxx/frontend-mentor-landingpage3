@@ -79,6 +79,10 @@ header {
 
 
 /*Hero Section*/
+.hero-section {
+	padding: 150px 40px;
+}
+
 .hero-content {
 	text-align: center;
 }
@@ -87,10 +91,6 @@ header {
 	max-width: 100%;
 	display: block;
 	margin: 0 auto;
-}
-
-.hero-statistics__holder {
-	margin-bottom: 150px;
 }
 
 .statistics__box {
@@ -127,6 +127,7 @@ header {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	text-align: center;
 	margin-bottom: 200px;
 }
 
@@ -174,8 +175,12 @@ span.contact-email::before {
 		text-align: center;
 	}
 
-	h2 {
-		padding-top: 100px;
+	.statistics__box:first-child {
+		margin-bottom: 80px;
+	}
+
+	.two-column__box:first-child {
+		padding-top: 80px;
 	}
 
 	.two-column__box {
