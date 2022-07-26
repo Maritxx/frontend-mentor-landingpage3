@@ -199,8 +199,19 @@ span.contact-email::before {
 		background-size: 100% 100%;
 		left: 0;
 		right: 0;
-		margin-bottom: -52px;
 		height: 52px;		
+	}
+
+	footer::before {
+		content: "";
+		position: absolute;
+		background-image: url("img/bg-footer-top-mobile.svg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		left: 0;
+		right: 0;
+		margin-top: -53px;
+		height: 53px;		
 	}
 }
 
@@ -231,8 +242,43 @@ span.contact-email::before {
 		margin: 0 auto;
 	}
 
+	.wave-blue::before {
+		content: "";
+		position: absolute;
+		background-image: url("img/bg-section-top-desktop-1.svg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		left: 0;
+		right: 0;
+		margin-top: -165px;
+		height: 165px;
+	}
+
+	.wave-blue::after {
+		content: "";
+		position: absolute;
+		background-image: url("img/bg-section-bottom-desktop-1.svg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		left: 0;
+		right: 0;
+		height: 139px;		
+	}
+
 	footer {
 		display: flex;
 		justify-content: space-between;
+	}
+
+	footer::before {
+		content: "";
+		position: absolute;
+		background-image: url("img/bg-footer-top-desktop.svg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		left: 0;
+		right: 0;
+		margin-top: -158px;
+		height: 158px;		
 	}
 }
