@@ -107,6 +107,7 @@ header {
 
 
 
+
 /*Company info Section*/
 .wave-blue {
 	background-color: var(--bg-secondary);
@@ -123,6 +124,7 @@ header {
 	padding: 15px 50px;
 	color: var(--bg-primary);
 	font-weight: 600;
+	margin-top: 35px;
 }
 
 .sign-up__holder {
@@ -130,7 +132,7 @@ header {
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
-	margin-bottom: 200px;
+	padding-bottom: 120px;
 }
 
 
@@ -142,6 +144,10 @@ footer {
 	position: relative;
 	color: var(--bg-primary);
 	padding: 40px;
+}
+
+footer p {
+	padding: 20px 0px;
 }
 
 span.contact-phone::before {
@@ -164,6 +170,14 @@ span.contact-email::before {
 
 .newsletter__holder {
 	max-width: 450px;
+}
+
+.button__subscribe {
+	background-color: var(--button-primary);
+	padding: 15px 30px;
+	color: var(--bg-primary);
+	font-weight: 600;	
+	border-radius: 10px;
 }
 
 
@@ -229,6 +243,10 @@ span.contact-email::before {
 		height: 52px;		
 	}
 
+	footer {
+		margin-top: 53px;
+	}
+
 	footer::before {
 		content: "";
 		position: absolute;
@@ -239,6 +257,19 @@ span.contact-email::before {
 		right: 0;
 		top: -53px;
 		height: 53px;		
+	}
+
+	.newsletter__holder {
+		margin-bottom: 80px;
+	}
+
+	.form-input input {
+		width: 100%;
+	}
+
+	.button__subscribe {
+		margin-top: 15px;
+		float: right;
 	}
 }
 
@@ -302,6 +333,7 @@ span.contact-email::before {
 	footer {
 		display: flex;
 		justify-content: space-between;
+		margin-top: 158px;
 	}
 
 	footer::before {
