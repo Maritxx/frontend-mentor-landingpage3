@@ -374,4 +374,8 @@ i.fa-brands {
 		top: -158px;
 		height: 158px;		
 	}
+
+	.contact-info__holder {
+		padding-right: 50px;
+	}
 }
