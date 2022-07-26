@@ -48,7 +48,7 @@ main p {
 	color: var(--text-secondary);
 }
 
-#return {
+#result {
 	color: var(--invalid-primary);
 	font-size: 0.8125rem;
 	display: none;
