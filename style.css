@@ -88,6 +88,10 @@ header {
 	margin: 0 auto;
 }
 
+.hero-statistics__holder {
+	margin-bottom: 150px;
+}
+
 .statistics__box {
 	display: flex;
 	flex-direction: column;
@@ -103,6 +107,10 @@ header {
 /*Company info Section*/
 .wave-blue {
 	background-color: var(--bg-secondary);
+}
+
+.two-column__holder {
+	margin-bottom: 150px;
 }
 
 .button__pink a {
@@ -169,6 +177,26 @@ span.contact-email::before {
 		display: block;
 		max-width: 100%;
 		margin: 0 auto;
+	}
+
+	.wave-blue::before {
+		content: "";
+		position: absolute;
+		background-image: url(img/bg-section-top-mobile-1.svg);
+		left: 0;
+		right: 0;
+		top: -112px;
+		height: 112px;
+	}
+
+	.wave-blue::after {
+		content: "";
+		position: absolute;
+		background-image: url(img/bg-section-bottom-mobile-1.svg);
+		left: 0;
+		right: 0;
+		bottom: -52px;
+		height: 52px;		
 	}
 }
 
