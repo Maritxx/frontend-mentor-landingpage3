@@ -77,6 +77,11 @@ header {
 	padding: 10px 30px;
 }
 
+.logo__holder img, .logo__holder svg {
+	max-width: 240px;
+	display: block;
+}
+
 
 
 
@@ -152,12 +157,12 @@ footer p {
 
 span.contact-phone::before {
 	content: url(img/icon-phone.svg);
-	padding-right: 7px;
+	padding-right: 20px;
 }
 
 span.contact-email::before {
 	content: url(img/icon-email.svg);
-	padding-right: 7px;
+	padding-right: 20px;
 }
 
 .contact-info__holder {
@@ -166,6 +171,7 @@ span.contact-email::before {
 
 .contact-info__holder span {
 	display: block;
+	padding: 10px 0px;
 }
 
 .newsletter__holder {
@@ -178,6 +184,15 @@ span.contact-email::before {
 	color: var(--bg-primary);
 	font-weight: 600;	
 	border-radius: 10px;
+}
+
+.social-logo__holder {
+	padding-top: 60px;
+}
+
+i.fa-brands {
+	font-size: 1.8rem;
+	padding-right: 15px;
 }
 
 
@@ -331,9 +346,13 @@ span.contact-email::before {
 	}
 
 	footer {
+		margin-top: 158px;
+	}
+
+	.footer__holder {
+		max-width: 1200px;
 		display: flex;
 		justify-content: space-between;
-		margin-top: 158px;
 	}
 
 	footer::before {
