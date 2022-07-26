@@ -10,6 +10,11 @@ body {
 	border-radius: 30px;
 }
 
+.pad {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
 
 
 
@@ -180,6 +185,11 @@ span.contact-email::before {
 		display: block;
 		max-width: 100%;
 		margin: 0 auto;
+	}
+
+	.two-column__reverse {
+		display: flex;
+		flex-direction: column-reverse;
 	}
 
 	.wave-blue::before {
