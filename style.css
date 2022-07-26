@@ -16,7 +16,7 @@ body {
 
 /*Font Styling*/
 h1 {
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	font-family: var(--heading-font);
 	font-weight: 700;
 	color: var(--text-primary);
@@ -27,6 +27,8 @@ h2 {
 	font-family: var(--heading-font);
 	font-weight: 700;
 	color: var(--text-primary);
+	max-width: 480px;
+	margin: 0 auto;
 }
 
 main p {
@@ -113,7 +115,7 @@ header {
 
 .two-column__holder {
 	margin-bottom: 200px;
-	padding: 40px;
+	padding: 20px 40px;
 }
 
 .button__pink a {
@@ -139,6 +141,7 @@ footer {
 	background-color: var(--text-primary);
 	position: relative;
 	color: var(--bg-primary);
+	padding: 40px;
 }
 
 span.contact-phone::before {
@@ -168,6 +171,10 @@ span.contact-email::before {
 
 /*Media Queries*/
 @media all and (max-width: 781px) {
+	.hero-content, .hero-image, .hero-statistics__holder {
+		margin-bottom: 120px;
+	}
+
 	.hero-statistics__holder {
 		display: flex;
 		flex-direction: column;
@@ -179,7 +186,7 @@ span.contact-email::before {
 		margin-bottom: 80px;
 	}
 
-	.two-column__box:first-child {
+	.two-column__text {
 		padding-top: 80px;
 	}
 
@@ -239,6 +246,14 @@ span.contact-email::before {
 
 
 @media all and (min-width: 782px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	.hero-content, .hero-image {
+		margin-bottom: 80px;
+	}
+
 	.hero-statistics__holder {
 		display: flex;
 		text-align: center;
@@ -252,8 +267,6 @@ span.contact-email::before {
 
 	.two-column__box {
 		flex: 0 1 50%;
-		align-items: center;
-		text-align: center;
 	}
 
 	.two-column__box img {
