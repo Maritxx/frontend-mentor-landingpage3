@@ -81,11 +81,7 @@ header {
 .logo__holder {
 	margin-right: 30px;
 	max-width: 240px;
-}
-
-.logo__holder svg {
-	width: 95%;
-	height: 95%;
+	max-height: 39px;
 }
 
 .logo__holder img {
