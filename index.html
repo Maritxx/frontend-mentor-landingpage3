@@ -105,18 +105,19 @@
 					</div>
 				</div>
 				<div class="newsletter__holder">
-					<form action="#" method="POST">
+					<form method="POST">
 						<span class="footer__heading">Newsletter</span>
 						<p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address.</p>
 						<div class="form-input">
-							<label for="email"></label>
-	      					<input type="email" oninvalid="invalidMessage()">
-	      					<button class="button__subscribe">Subscribe</button>
-	      					<span class="invalidText hidden">Check your email please</span>
+							<label for="email">Enter an email address:</label>
+	      					<input  id="email" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+	      					<button id="formButton" type="submit" class="button__subscribe">Subscribe</button>
+	      					<span id="return"></span>
 	      				</div>
 	      			</form>
 				</div>
 			</div>
+			<script src="main.js"></script>
 		</footer>
 	</body>
 </html>
