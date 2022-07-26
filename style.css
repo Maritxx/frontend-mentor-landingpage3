@@ -107,10 +107,11 @@ header {
 /*Company info Section*/
 .wave-blue {
 	background-color: var(--bg-secondary);
+	position: relative;
 }
 
 .two-column__holder {
-	margin-bottom: 150px;
+	margin-bottom: 200px;
 }
 
 .button__pink a {
@@ -124,6 +125,7 @@ header {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	margin-bottom: 200px;
 }
 
 
@@ -132,6 +134,7 @@ header {
 /*Footer Styling*/
 footer {
 	background-color: var(--text-primary);
+	position: relative;
 	color: var(--bg-primary);
 }
 
@@ -187,7 +190,7 @@ span.contact-email::before {
 		background-size: 100% 100%;
 		left: 0;
 		right: 0;
-		margin-top: -112px;
+		top: -112px;
 		height: 112px;
 	}
 
@@ -199,6 +202,7 @@ span.contact-email::before {
 		background-size: 100% 100%;
 		left: 0;
 		right: 0;
+		bottom: -52px;
 		height: 52px;		
 	}
 
@@ -210,7 +214,7 @@ span.contact-email::before {
 		background-size: 100% 100%;
 		left: 0;
 		right: 0;
-		margin-top: -53px;
+		top: -53px;
 		height: 53px;		
 	}
 }
@@ -250,7 +254,7 @@ span.contact-email::before {
 		background-size: 100% 100%;
 		left: 0;
 		right: 0;
-		margin-top: -165px;
+		top: -165px;
 		height: 165px;
 	}
 
@@ -262,6 +266,7 @@ span.contact-email::before {
 		background-size: 100% 100%;
 		left: 0;
 		right: 0;
+		bottom: -139px;
 		height: 139px;		
 	}
 
@@ -278,7 +283,7 @@ span.contact-email::before {
 		background-size: 100% 100%;
 		left: 0;
 		right: 0;
-		margin-top: -158px;
+		top: -158px;
 		height: 158px;		
 	}
 }
