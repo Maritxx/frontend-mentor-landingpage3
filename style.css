@@ -182,20 +182,24 @@ span.contact-email::before {
 	.wave-blue::before {
 		content: "";
 		position: absolute;
-		background-image: url(img/bg-section-top-mobile-1.svg);
+		background-image: url("img/bg-section-top-mobile-1.svg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 		left: 0;
 		right: 0;
-		top: -112px;
+		margin-top: -112px;
 		height: 112px;
 	}
 
 	.wave-blue::after {
 		content: "";
 		position: absolute;
-		background-image: url(img/bg-section-bottom-mobile-1.svg);
+		background-image: url("img/bg-section-bottom-mobile-1.svg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 		left: 0;
 		right: 0;
-		bottom: -52px;
+		margin-bottom: -52px;
 		height: 52px;		
 	}
 }
