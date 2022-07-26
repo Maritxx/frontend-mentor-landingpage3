@@ -79,13 +79,17 @@ header {
 }
 
 .logo__holder {
-	padding-right: 30px;
+	margin-right: 30px;
+	max-width: 240px;
 }
 
-.logo__holder img, .logo__holder svg {
-	max-width: 240px;
-	width: 100%;
-	height: auto;
+.logo__holder svg {
+	width: 95%;
+	height: 95%;
+}
+
+.logo__holder img {
+	max-width: 100%;
 	display: block;
 }
 
