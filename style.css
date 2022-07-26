@@ -89,6 +89,9 @@ header {
 	display: block;
 }
 
+
+
+
 /*Hero Section*/
 .hero-section {
 	padding: 150px 40px;
@@ -157,6 +160,7 @@ footer {
 
 footer p {
 	padding: 20px 0px;
+	max-width: 375px;
 }
 
 span.contact-phone::before {
@@ -169,17 +173,13 @@ span.contact-email::before {
 	padding-right: 20px;
 }
 
-.contact-info__holder {
-	max-width: 375px;
+.contact-info__holder, .newsletter__holder {
+	max-width: 450px;
 }
 
 .contact-info__holder span {
 	display: block;
 	padding: 10px 0px;
-}
-
-.newsletter__holder {
-	max-width: 450px;
 }
 
 .button__subscribe {
@@ -280,6 +280,11 @@ i.fa-brands {
 
 	.newsletter__holder {
 		margin-bottom: 80px;
+		margin: 0 auto;
+	}
+
+	.contact-info__holder {
+		margin: 0 auto;
 	}
 
 	.form-input input {
