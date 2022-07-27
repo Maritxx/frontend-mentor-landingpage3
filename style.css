@@ -50,6 +50,7 @@ main p {
 	color: var(--invalid-primary);
 	font-size: 0.8125rem;
 	display: none;
+	padding-top: 15px;
 }
 
 .footer__heading {
